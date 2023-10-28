@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="head-container">
+        <div class="head-desc">
+          <p>My balance</p>
+          <h2>$921.48</h2>
+        </div>
+        <div id="c1" class="circle"></div>
+        <div id="c2" class="circle"></div>
+      </section>
+
+      <div class="body-container">
+        <section id="header">
+          <h2>Spending - Last 7 days</h2>
+        </section>
+        <section id="body">
+          <section id="graph-content">
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">mon</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">tue</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">wed</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">thu</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">fri</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">sat</span>
+            </div>
+            <div class="graph-container">
+              <span class="value">$100</span>
+              <span class="bar"></span>
+              <span class="day">sun</span>
+            </div>
+          </section>
+        </section>
+
+        <div id="line"></div>
+
+        <section id="footer">
+          <div id="total">
+            <p>Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+          <div id="perc">
+            <p id="val">+2.4%</p>
+            <p id="last">from last month</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Daniel</a>.
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
